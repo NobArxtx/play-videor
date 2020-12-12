@@ -76,7 +76,7 @@
   var Play = document.getElementById('Play');
   Play.addEventListener('click', () => {
     var vjo =`<video width="100%" controls>
-      <source src="${Play.value.replace('%20',' '}" type="video/mp4">
+      <source src="${Play.value.replace('%20',' ')}">
       Your browser does not support HTML video.
     </video>`;
     a.innerHTML = vjo;
